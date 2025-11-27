@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Surat dukungan untuk Puput">
+    <title>Ceritain aja Puput</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="pelukmu_untuk_peliku.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <!-- Intro Section -->
+        <div class="intro" id="introText">
+            Baca ini ya sella, kalau kamu lagi butuh tempat cerita.
+        </div>
+        <button class="btn-primary" id="startButton" onclick="showLetter()">Klik di sini</button>
+
+        <!-- Letter Box -->
+        <div class="letter" id="letterBox">
+            <div class="letter-content" id="typedText"></div>
+            
+            <!-- Social Media Buttons -->
+            <div class="social-buttons" id="socialButtons">
+                <a href="https://wa.me/6285718993124?text=Hai,%20aku%20udah%20baca%20suratnya..." 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="btn-social btn-whatsapp">
+                    💬 Chat WhatsApp
+                </a>
+                <a href="https://instagram.com/jstmannn" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="btn-social btn-instagram">
+                    💬DM Instagram
+                </a>
+            </div>
+            <br><br>
+            <!-- Signature Placeholder -->
+            <img src="ttd.png" alt="Tanda Tangan" class="signature" id="signature" style="display: none;">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2025, Created by Jstmann
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
